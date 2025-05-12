@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Face_Mainwindow</class>
+ <widget class="QMainWindow" name="Face_Mainwindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>980</width>
+    <height>635</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="central_widget">
+   <widget class="QGraphicsView" name="view_frame">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>960</width>
+      <height>540</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_learn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>560</y>
+      <width>80</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Learn</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="face_name">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>560</y>
+      <width>211</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>unknown</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="status_bar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
